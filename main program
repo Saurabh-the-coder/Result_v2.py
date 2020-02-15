@@ -1,0 +1,413 @@
+#In this program you can calculate Result of engineering years of 8 sem in a single program   
+def sem1() : #function of sem 1 
+     global s1,s2,s3,s4,s15,s6,p1,p2,p3,p4 #define variables as global
+     print("\n ----------------------------\n | no.      List of subject | \n ----------------------------\n | Enter the marks below    | ") 
+     s1=int(input(" | 1.    Mathematics - 1(T) = 100/"))
+     while s1>100 :# limiting of marks by using while loop
+         print(" | Invalid input")
+         s1=int(input(" | 1.    Mathematics - 1(T) = 100/"))
+     s2=int(input(" | 2.       Engg Physics(T) = 100/"))
+     while s2>100 :
+         print(" | Invalid input")
+         s2=int(input(" | 2.       Engg Physics(T) = 100/"))
+     p1=int(input(" | 3.       Engg Physics(P) = 50/"))
+     while p1>50 :
+         print(" | Invalid input")
+         p1=int(input(" | 3.       Engg Physics(P) = 50/"))
+     s3=int(input(" | 4.     Engg Chemistry(T) = 100/"))
+     while s3>100 :
+         print(" | Invalid input")
+         s3=int(input(" | 4.     Engg Chemistry(T) = 100/"))
+     p2=int(input(" | 5.     Engg Chemistry(P) = 50/"))
+     while p2>50 :
+         print(" | Invalid input")
+         p2=int(input(" | 5.     Engg Chemistry(P) = 50/"))
+     s4=int(input(" | 6.                BEE(T) = 100/"))
+     while s4>100 :
+         print(" | Invalid input")
+         s4=int(input(" | 6.                BEE(T) = 100/"))
+     p3=int(input(" | 7.                BEE(P) = 50/"))
+     while p3>50 :
+         print(" | Invalid input")
+         p3=int(input(" | 7.                BEE(P) = 50/"))
+     s15=int(input(" | 8.         Civil Engg(T) = 100/"))
+     while s15>100 :
+         print(" | Invalid input")
+         s15=int(input(" | 8.         Civil Engg(T) = 100/"))
+     s6=int(input(" | 9.     Engg Graphics (T) = 100/"))
+     while s6>100 :
+         print(" | Invalid input")
+         s6=int(input(" | 9.     Engg Graphics (T) = 100/"))
+     p4=int(input(" | 10.    Engg Graphics (P) = 50/"))
+     while p4>50 :
+         print(" | Invalid input")
+         p4=int(input(" | 10.    Engg Graphics (P) = 50/"))
+def sem2():  #function of sem 2 
+     global s1,s2,s3,s4,s15,s6,p1,p2,p3,p4,s25
+     print("\n ----------------------------\n | no.      List of subject | \n ----------------------------\n | Enter the marks below    | ") 
+     s1=int(input(" | 1.       Mathematics - 2 = 100/"))
+     while s1>100 :
+         print(" | Invalid input")
+         s1=int(input(" | 1.      Mathematics - 2  = 100/"))
+     s2=int(input(" | 2.        Adv Physics(T) = 100/"))
+     while s2>100 :
+         print(" | Invalid input")
+         s2=int(input(" | 2.        Adv Physics(T) = 100/"))
+     p1=int(input(" | 3.        Adv Physics(P) = 50/"))
+     while p1>50 :
+         print(" | Invalid input")
+         p1=int(input(" | 3.        Adv Physics(P) = 50/"))
+     s3=int(input(" | 4.    Adv Elect. Engg(T) = 100/"))
+     while s3>100 :
+         print(" | Invalid input")
+         s3=int(input(" | 4.    Adv Elect. Engg(T) = 100/"))
+     p2=int(input(" | 5.    Adv Elect. Engg(P) = 50/"))
+     while p2>50 :
+         print(" | Invalid input")
+         p2=int(input(" | 5.    Adv Elect. Engg(P) = 50/"))
+     s4=int(input(" | 6.     Engg Mechanics(T) = 100/"))
+     while s4>100 :
+         print(" | Invalid input")
+         s4=int(input(" | 6.     Engg Mechanics(T) = 100/"))
+     p3=int(input(" | 7.    Engg Graphics 2(P) = 50/"))
+     while p3>50 :
+         print(" | Invalid input")
+         p3=int(input(" | 7.    Engg Graphics 2(P) = 50/"))
+     s25=int(input(" | 8.      Mat Chemistry(T) = 100/"))
+     while s25>100 :
+         print(" | Invalid input")
+         s25=int(input(" | 8.      Mat Chemistry(T) = 100/"))
+     p4=int(input(" | 9.      Mat Chemistry(P) = 50/"))
+     while p4>50 :
+         print(" | Invalid input")
+         p4=int(input(" | 9.      Mat Chemistry(P) = 50/"))
+def sem3(): #function of sem 3 
+     global s1,s2,s3,s4,p1,p2,p3,s35
+     print("\n ----------------------------\n | no.      List of subject | \n ----------------------------\n | Enter the marks below    | ") 
+     s1=int(input(" | 1.    Mathematics - 3(T) = 100/"))
+     while s1>100 :
+         print(" | Invalid input")
+         s1=int(input(" | 1.    Mathematics - 3(T) = 100/"))
+     s2=int(input(" | 2.             OOP&DS(T) = 100/"))
+     while s2>100 :
+         print(" | Invalid input")
+         s2=int(input(" | 2.             OOP&DS(T) = 100/"))
+     p1=int(input(" | 3.             OOP&DS(P) = 50/"))
+     while p1>50 :
+         print(" | Invalid input")
+         p1=int(input(" | 3.             OOP&DS(P) = 50/"))
+     s3=int(input(" | 4.    En. Devices CKT(T) = 100/"))
+     while s3>100 :
+         print(" | Invalid input")
+         s3=int(input(" | 4.    En. Devices CKT(T) = 100/"))
+     p2=int(input(" | 5.    En. Devices CKT(P) = 50/"))
+     while p2>50 :
+         print(" | Invalid input")
+         p2=int(input(" | 5.    En. Devices CKT(P) = 50/"))
+     s4=int(input(" | 6.  En Mesure& Instru(T) = 100/"))
+     while s4>100 :
+         print(" | Invalid input")
+         s4=int(input(" | 6.  En Mesure& Instru(T) = 100/"))
+     p3=int(input(" | 7.  En Mesure& Instru(P) = 50/"))
+     while p3>50 :
+         print(" | Invalid input")
+         p3=int(input(" | 7.  En Mesure& Instru(P) = 50/"))
+     s35=int(input(" | 8. Network Anay & syn(T) = 100/"))
+     while s35>100 :
+         print(" | Invalid input")
+         s35=int(input(" | 8. Network Anay & syn(T) = 100/"))
+def sem4(): #function of sem 4
+     global s1,s2,s3,s4,p1,p2,s45
+     print("\n ----------------------------\n | no.      List of subject | \n ----------------------------\n | Enter the marks below    | ") 
+     s1=int(input(" | 1.    Mathematics - 4(T) = 100/"))
+     while s1>100 :
+         print(" | Invalid input")
+         s1=int(input(" | 1.    Mathematics - 4(T) = 100/"))
+     s2=int(input(" | 2.   Power Dev & Mach(T) = 100/"))
+     while s2>100 :
+         print(" | Invalid input")
+         s2=int(input(" | 2.   Power Dev & Mach(T) = 100/"))
+     p1=int(input(" | 3.   Power Dev & Mach(P) = 50/"))
+     while p1>50 :
+         print(" | Invalid input")
+         p1=int(input(" | 3.   Power Dev & Mach(P) = 50/"))
+     s3=int(input(" | 4.              DCFM (T) = 100/"))
+     while s3>100 :
+         print(" | Invalid input")
+         s3=int(input(" | 4.              DCFM (T) = 100/"))
+     p2=int(input(" | 5.              DCFM (P) = 50/"))
+     while p2>50 :
+         print(" | Invalid input")
+         p2=int(input(" | 5.              DCFM (P) = 50/"))
+     s4=int(input(" | 6.          EM Fields(T) = 100/"))
+     while s4>100 :
+         print(" | Invalid input")
+         s4=int(input(" | 6.          EM Fields(T) = 100/"))
+     s45=int(input(" | 7.    Signal & System(T) = 100/"))
+     while s45>100 :
+         print(" | Invalid input")
+         s45=int(input(" | 7.    Signal & System(T) = 100/"))
+def sem5(): #function of sem 5
+     global s1,s2,p1,s3,p2,s4,p3,s55
+     print("\n ----------------------------\n | no.      List of subject | \n ----------------------------\n | Enter the marks below    | ") 
+     s1=int(input(" | 1. Antena & wave prop(T) = 100/"))
+     while s1>100 :
+         print(" | Invalid input")
+         s1=int(input(" | 1. Antena & wave prop(T) = 100/"))
+     s2=int(input(" | 2.              uP&uP(T) = 100/"))
+     while s2>100 :
+         print(" | Invalid input")
+         s2=int(input(" | 2.              uP&uP(T) = 100/"))
+     p1=int(input(" | 3.              uP&uP(P) = 50/"))
+     while p1>50 :
+         print(" | Invalid input")
+         p1=int(input(" | 3.              uP&uP(P) = 50/"))
+     s3=int(input(" | 4.  Analog CKT Design(T) = 100/"))
+     while s3>100 : 
+         print(" | Invalid input")
+         s3=int(input(" | 4.  Analog CKT Design(T) = 100/"))
+     p2=int(input(" | 5.  Analog CKT Design(P) = 50/"))
+     while p2>50 :
+         print(" | Invalid input")
+         p2=int(input(" | 5.  Analog CKT Design(P) = 50/"))
+     s4=int(input(" | 6.  comm. electronics(T) = 100/"))
+     while s4>100 :
+         print(" | Invalid input")
+         s4=int(input(" | 6.  comm. electronics(T) = 100/"))
+     p3=int(input(" | 7.  comm. electronics(P) = 50/"))
+     while p3>50 :
+         print(" | Invalid input")
+         p3=int(input(" | 7.  comm. electronics(P) = 50/"))
+     s55=int(input(" | 8.               IEED(T) = 50/"))
+     while s55>50 :
+         print(" | Invalid input")
+         s55=int(input(" | 8.               IEED(T) = 50/"))
+def sem6(): #function of sem 6
+     global s1,s2,p1,s3,p2,s4,s65
+     print("\n ----------------------------\n | no.      List of subject | \n ----------------------------\n | Enter the marks below    | ") 
+     s1=int(input(" | 1. Telecomm Swith Sys(T) = 100/"))
+     while s1>100 :
+         print(" | Invalid input")
+         s1=int(input(" | 1. Telecomm Swith Sys(T) = 100/"))
+     s2=int(input(" | 2.  Digi Signal Proc.(T) = 100/"))
+     while s2>100 :
+         print(" | Invalid input")
+         s2=int(input(" | 2.  Digi Signal Proc.(T) = 100/"))
+     p1=int(input(" | 3.  Digi Signal Proc.(P) = 50/"))
+     while p1>50 :
+         print(" | Invalid input")
+         p1=int(input(" | 3.  Digi Signal Proc.(P) = 50/"))
+     s3=int(input(" | 4.       Digital. Com(T) = 100/"))
+     while s3>100 :
+         print(" | Invalid input")
+         s3=int(input(" | 4.       Digital. Com(T) = 100/"))
+     p2=int(input(" | 5.       Digital. Com(P) = 50/"))
+     while p2>50 :
+         print(" | Invalid input")
+         p2=int(input(" | 5.       Digital. Com(P) = 50/"))
+     s65=int(input(" | 6. Functional English(T) = 50/"))
+     while s65>50 :
+         print(" | Invalid input")
+         s65=int(input(" | 6. Functional English(T) = 50/"))
+     s4=int(input(" | 7.   Control Sys Engg(T) = 100/"))
+     while s4>100 :
+         print(" | Invalid input")
+         s4=int(input(" | 7.   Control Sys Engg(T) = 100/"))
+def sem7():  #function of sem 7 
+     global s1,s2,p1,s3,p2,s4,p3,s75
+     print("\n ----------------------------\n | no.      List of subject | \n ----------------------------\n | Enter the marks below    | ") 
+     s1=int(input(" | 1.      Optical comm.(T) = 100/"))
+     while s1>100 :
+         print(" | Invalid input")
+         s1=int(input(" | 1.      Optical comm.(T) = 100/"))
+     s2=int(input(" | 2.    DSP proc.& arch(T) = 100/"))
+     while s2>100 :
+         print(" | Invalid input")
+         s2=int(input(" | 2.    DSP proc.& arch(T) = 100/"))
+     p1=int(input(" | 3.    DSP proc.& arch(P) = 50/"))
+     while p1>50 :
+         print(" | Invalid input")
+         p1=int(input(" | 3.    DSP proc.& arch(P) = 50/"))
+     s3=int(input(" | 4.   TV & Video enggT(T) = 100/"))
+     while s3>100 :
+         print(" | Invalid input")
+         s3=int(input(" | 4.    TV & Video engg(T) = 100/"))
+     p2=int(input(" | 5.    TV & Video engg(P) = 50/"))
+     while p2>50 :
+         print(" | Invalid input")
+         p2=int(input(" | 5.    TV & Video engg(P) = 50/"))
+     s4=int(input(" | 6.               ADSD(T) = 100/"))
+     while s4>100 :
+         print(" | Invalid input")
+         s4=int(input(" | 6.               ADSD(T) = 100/"))
+     p3=int(input(" | 7.               ADSD(P) = 50/"))
+     while p3>50 :
+         print(" | Invalid input")
+         p3=int(input(" | 7.               ADSD(P) = 50/"))
+     s75=int(input(" | 8.         Elective-1(T) = 100/"))
+     while s75>100 :
+         print(" | Invalid input")
+         s75=int(input(" | 8.         Elective-1(T) = 100/"))
+def sem8():  #function of sem 8 
+     global s1,s2,p1,s3,p2,s4,p3,s85
+     print("\n ----------------------------\n | no.      List of subject | \n ----------------------------\n | Enter the marks below    | ") 
+     s1=int(input(" | 1. Wireless & mob.com(T) = 100/"))
+     while s1>100 :
+         print(" | Invalid input")
+         s1=int(input(" | 1. Wireless & mob.com(T) = 100/"))
+     s2=int(input(" | 2.    MW & RADAR Engg(T) = 100/"))
+     while s2>100 :
+         print(" | Invalid input")
+         s2=int(input(" | 2.    MW & RADAR Engg(T) = 100/"))
+     p1=int(input(" | 3.    MW & RADAR Engg(P) = 50/"))
+     while p1>50 :
+         print(" | Invalid input")
+         p1=int(input(" | 3.    MW & RADAR Engg(P) = 50/"))
+     s3=int(input(" | 4.     Comp Comm. Net(T) = 100/"))
+     while s3>100 :
+         print(" | Invalid input")
+         s3=int(input(" | 4.     Comp Comm. Net(T) = 100/"))
+     p2=int(input(" | 5.     Comp Comm. Net(P) = 50/"))
+     while p2>50 :
+         print(" | Invalid input")
+         p2=int(input(" | 5.     Comp Comm. Net(P) = 50/"))
+     s4=int(input(" | 6.         Elective-2(T) = 100/"))
+     while s4>100 :
+         print(" | Invalid input")
+         s4=int(input(" | 6.         Elective-2(T) = 100/"))
+     s85=int(input(" | 7.         Elective-3(T) = 50/"))
+     while s85>100 :
+         print(" | Invalid input")
+         s85=int(input(" | 7.         Elective-3(T) = 100/"))
+     p3=int(input(" | 8.            PROJECT(P) = 150/"))
+     while p3>150 :
+         print(" | Invalid input")
+         p3=int(input(" | 8.            PROJECT(P) = 150/"))
+def main(): # main function to find result
+ print("\n ----------------------------\n | List of choice        no.| \n ----------------------------\n | First year          -> 1.| \n | Second year         -> 2.| \n | Third year          -> 3.| \n | Forth year          -> 4.| ")
+ ch1=int(input(" | Enter your choice = "))
+ while ch1>4 or ch1<=0  : # limiting range of 1 to 4 using while loop 
+          print(" | Invalid input")
+          ch1=int(input(" | Enter your choice = "))
+ if ch1==1:  #select 1st year
+  print("\n\n ----------------------------\n | List of semester      no.| \n ----------------------------\n | First sem           -> 0.| \n | Second sem          -> 1.| ")
+  ch2=int(input(" | Enter your choice = "))
+  while ch2>1 :
+     print(" | Invalid input")
+     ch2=int(input(" | Enter your choice = "))
+  if ch1==1 and ch2==0: #selection of 1st sem 1st year
+   sem1()
+   print("\n\n ----------------------------\n |          RESULT          | \n ----------------------------")
+   ch3=int(ch1)+int(ch2) #adding ch1 and ch2 to get sem in numbers
+   print(" |   Of",ch1,"year",ch3,"semester   |" )
+   if s1 and s2 and s3 and s4 and s15 and s6>= 40 and p1 and p2 and p3 and p4 >= 30 : # calling variables from sem1()
+    print(" |      RESULT IS PASS      | ")
+    print(" |      PERCENTAGE %        = ",(s1+s2+s3+s4+s15+s6+p1+p2+p3+p4)/8) #percent calculation 
+    print(" |         CGPA             = ",((s1+s2+s3+s4+s15+s6+p1+p2+p3+p4)/80)+0.75,"\n ----------------------------")# cgpa calculation
+   else:
+    print(" |      RESULT IS FAIL      | \n ----------------------------")
+  if ch1==1 and ch2==1: #selection of 2nd sem 1st year
+   sem2()
+   print("\n\n ----------------------------\n |          RESULT          | \n ----------------------------")
+   ch3=int(ch1)+int(ch2)
+   print(" |   Of",ch1,"year",ch3,"semester   |" )
+   if s1 and s2 and s3 and s4 and s25 >= 40 and p1 and p2 and p3 and p4 >= 30 : # calling variables from sem2()
+    print(" |      RESULT IS PASS      | ")
+    print(" |      PERCENTAGE %        = ",(s1+s2+s3+s4+s25+p1+p2+p3+p4)/7)
+    print(" |         CGPA             = ",((s1+s2+s3+s4+s25+p1+p2+p3+p4)/70)+0.75,"\n ----------------------------")
+   else:
+    print(" |      RESULT IS FAIL      | \n ----------------------------")
+ if ch1==2: #second yaer result calc.
+  print("\n\n ----------------------------\n | List of semester      no.| \n ----------------------------\n | Third sem           -> 1.| \n | forth sem           -> 2.| ")
+  ch2=int(input(" | Enter your choice = "))
+  while ch2>2 :
+     print(" | Invalid input")
+     ch2=int(input(" | Enter your choice = "))
+  if ch1==2 and ch2==1:#selection of 3rd sem 2nd year
+   sem3()
+   print("\n\n ----------------------------\n |          RESULT          | \n ----------------------------")
+   ch3=int(ch1)+int(ch2)
+   print(" |   Of",ch1,"year",ch3,"semester   |" )
+   if s1 and s2 and s3 and s4 and s35>= 40 and p1 and p2 and p3>= 30 : # calling variables from sem3()
+    print(" |      RESULT IS PASS      | ")
+    print(" |      PERCENTAGE %        = ",(s1+s2+s3+s4+s35+p1+p2+p3)/6.5)
+    print(" |         CGPA             = ",((s1+s2+s3+s4+s35+p1+p2+p3)/65)+0.75,"\n ----------------------------")
+   else:
+    print(" |      RESULT IS FAIL      | \n ----------------------------")
+  if ch1==2 and ch2==2:#selection of 4th sem 2nd year
+   sem4()
+   print("\n\n ----------------------------\n |          RESULT          | \n ----------------------------")
+   ch3=int(ch1)+int(ch2)
+   print(" |   Of",ch1,"year",ch3,"semester   |" )
+   if s1 and s2 and s3 and s4 and s45>= 40 and p1 and p2>= 30 : # calling variables from sem4()
+    print(" |      RESULT IS PASS      | ")
+    print(" |      PERCENTAGE %        = ",(s1+s2+s3+s4+s45+p1+p2)/6)
+    print(" |         CGPA             = ",((s1+s2+s3+s4+s45+p1+p2)/60)+0.75,"\n ----------------------------")
+   else:
+    print(" |      RESULT IS FAIL      | \n ----------------------------")
+ if ch1==3: # Result calc 3rd year
+  print("\n\n ----------------------------\n | List of semester      no.| \n ----------------------------\n | Fifth sem           -> 1.| \n | Sixth sem           -> 2.| ")
+  ch2=int(input(" | Enter your choice = "))
+  while ch2>2:
+     print(" | Invalid input")
+     ch2=int(input(" | Enter your choice = "))
+  if ch1==3 and ch2==1:#selection of 5st sem 3rd year
+   sem5()
+   print("\n\n ----------------------------\n |          RESULT          | \n ----------------------------")
+   ch3=int(ch1)+int(ch2)+1
+   print(" |   Of",ch1,"year",ch3,"semester   |" )
+   if s1 and s2 and s3 and s4 >= 40 and p1 and p2 and p3 and s55>= 30 : # calling variables from sem5()
+    print(" |      RESULT IS PASS      | ")
+    print(" |      PERCENTAGE %        = ",(s1+s2+s3+s4+s55+p1+p2+p3)/6)
+    print(" |         CGPA             = ",((s1+s2+s3+s4+s55+p1+p2+p3)/60)+0.75,"\n ----------------------------")
+   else:
+    print(" |      RESULT IS FAIL      | \n ----------------------------")
+  if ch1==3 and ch2==2:#selection of 6th sem 3rd year
+   sem6()
+   print("\n\n ----------------------------\n |          RESULT          | \n ----------------------------")
+   ch3=int(ch1)+int(ch2)+1
+   print(" |   Of",ch1,"year",ch3,"semester   |" )
+   if s1 and s2 and s3 and s4 >= 40 and p1 and p2 and s65>= 30 :  # calling variables from sem6()
+    print(" |      RESULT IS PASS      | ")
+    print(" |      PERCENTAGE %        = ",(s1+s2+s3+s4+s65+p1+p2)/5.5)
+    print(" |         CGPA             = ",((s1+s2+s3+s4+s65+p1+p2)/55)+0.75,"\n ----------------------------")
+   else:
+    print(" |      RESULT IS FAIL      | \n ----------------------------")
+ if ch1==4:
+  print("\n\n ----------------------------\n | List of semester      no.| \n ----------------------------\n | Seventh sem         -> 1.| \n | Eighth sem          -> 2.| ")
+  ch2=int(input(" | Enter your choice = "))
+  while ch2>2 :
+     print(" | Invalid input")
+     ch2=int(input(" | Enter your choice = "))
+  if ch1==4 and ch2==1:#selection of 7th sem 4th year
+   sem7()
+   print("\n\n ---------------------------\n |          RESULT          | \n ----------------------------")
+   ch3=int(ch1)+int(ch2)+1
+   print(" |   Of",ch1,"year",ch3,"semester   |" )
+   if s1 and s2 and s3 and s4 and s75>= 40 and p1 and p2 and p3>= 30 : # calling variables from sem7()
+    print(" |      RESULT IS PASS      | ")
+    print(" |      PERCENTAGE %        = ",(s1+s2+s3+s4+s75+p1+p2+p3)/6.5)
+    print(" |         CGPA             = ",((s1+s2+s3+s4+s75+p1+p2+p3)/65)+0.75,"\n ----------------------------")
+   else:
+    print(" |      RESULT IS FAIL      | \n ----------------------------")
+  if ch1==4 and ch2==2:#selection of 8th sem 4th year
+   sem8()
+   print("\n\n ----------------------------\n |          RESULT          | \n ----------------------------")
+   ch3=int(ch1)+int(ch2)+2
+   print(" |   Of",ch1,"year",ch3,"semester   |" )
+   if s1 and s2 and s3 and s4 and s85>= 40 and p1 and p2>= 30 and p3>=60: # calling variables from sem7()
+    print(" |      RESULT IS PASS      | ")
+    print(" |      PERCENTAGE %        = ",(s1+s2+s3+s4+s85+p1+p2+p3)/7.5)
+    print(" |         CGPA             = ",((s1+s2+s3+s4+s85+p1+p2+p3)/75)+0.75,"\n ----------------------------")
+   else:
+    print(" |      RESULT IS FAIL      | \n ----------------------------")
+main()# calling main function
+print("\n | Do you want to calculate |")
+more=str(input(" | any other result (Y/N) = "))#for calculating more result  
+while more=="y"and"Y":
+ main()# calling main function
+ print("\n | Do you want to calculate |")
+ more=str(input(" | any other result (Y/N) = ")) 
+ if more=="N" and "n":
+  break# break to end program
+
